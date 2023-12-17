@@ -1,4 +1,9 @@
-```﻿monitoring-grafana-prometheus```
+in ths repository you found many scrit to deploy prometheus and grafana to start monitoring : Host , cluster , container , applications , all this by using metrics like ; node exporter, kube metrics statics , cadvisor , blackbox, postgrs-exporter .
+
+note : to deploy the monitoring application ,kubernetes need to be installed in the machine , in this repository we use Odoo , PG admin , and postgressql to test out monitorin application, all that need is to clone the repository and apply the command line below.
+
+the configmap is all ready configured to add the metrics applications in prometheus , we recommand to open the scrpt and understand what inside like jobs . 
+
  
 ```kubeclt create namespace monitoring```
 
