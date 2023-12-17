@@ -1,0 +1,11 @@
+service:
+  type: NodePort
+config:
+  datasource:
+    host: postgres
+    user: admin
+    passwordSecret:
+      name: postgres-secret
+      key: postgres-password
+    port: "5432"
+    database: ''

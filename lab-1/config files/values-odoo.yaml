@@ -1,0 +1,10 @@
+service:
+  type: NodePort
+persistence:
+    enabled: false
+postgresql:
+  enabled: true
+  persistence:
+    enabled: false
+
+  
