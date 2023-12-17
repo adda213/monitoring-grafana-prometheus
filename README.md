@@ -1,8 +1,13 @@
-﻿# monitoring-grafana-prometheus
+﻿monitoring-grafana-prometheus
+ 
 kubeclt create namespace monitoring
+
 kubectl create namespace icgroup
+
 kubectl apply -f ./lab2/postgres
+
 kubectl apply -f ./lab2/odoo
+
 kubectl apply -f ./lab2/pg_admin
 kubectl get pods -n icgroup 
 ![image](https://github.com/adda213/monitoring-grafana-prometheus/assets/123883398/46658500-c114-482d-a9ee-60398b5f6be3)
